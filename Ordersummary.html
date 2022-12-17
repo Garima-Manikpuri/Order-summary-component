@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+           }
+           body{
+            background-image: url(image/fi.svg);
+            background-repeat: no-repeat;
+            background-color: #e7dbdb;
+
+        
+           }
+        .first{
+box-sizing: border-box;
+width: 350px;
+height: 500px;
+border: 1px solid #e3ede3;
+border-radius: 10px;
+text-align: center;
+/* display: flex; */
+/* position: absolute; */
+margin: 100px;
+margin-left: 500px;
+background-color: #f5eeee;
+        }
+        .img1{
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
+            border: 1px solid blue;
+        }
+        p{
+            margin-top: 20px;
+            color: gray;
+            /* padding: 5px; */
+            font-size: 15px;
+        }
+        .second{
+            box-sizing: border-box;
+    width: 251px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 52px;
+    height: 62px;
+    background-color: #e5e0e0;
+    border-radius: 6px;
+    display: flex;
+}
+.second img{
+    margin-top: 13px;
+    margin-left: 13px;
+    justify-content: center;
+width: 30px;
+}
+.second h4{
+    /* justify-items: center; */
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.second p{
+    position: absolute;
+    margin-left: 57px;
+    margin-top: 31px;
+}
+.second a{
+position: absolute;
+margin-left: 180px;
+margin-top: 13px;
+
+}
+.btn{
+    background-color: #070789;
+    position: relative;
+    width: 250px;
+    height: 35px;
+    border-radius: 7px;
+    margin-left: 53px;
+    margin-top: 30px;
+}
+ .para{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 79px;
+    color: white;
+}
+#last{
+    color: grey;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -26px;
+    font-size: 15px;
+text-decoration: none;
+}
+@media only screen and (max-width: 900px) and (min-width: 600px){
+    
+    .first{
+        position: absolute;
+        left:-233px;
+        top: -51px;
+        /* width: 250px; */
+        /* height: 450px; */
+
+    }
+    
+} 
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    
+    .first{
+        position: absolute;
+        left:-379px;
+        top: -57px;
+        /* width: 250px; */
+        /* height: 450px; */
+
+    }
+    
+} 
+        
+    </style>
+</head>
+<body>
+    <div class="first">
+    <img src="image/illustration-hero.svg" width="348px" height="150px" class="img1"></img>
+    <h3 style="text-align: center; margin-top: 27px;" >Order Summary</h3>
+    <p>You can now listen to millions of songs,<br>audioable, and podcasts on any device<br>anywhere you like!</p>
+    <div class="second">
+        <img src="image/icon-music.svg" alt="music" style="height: 29px  "></img>
+<h4><strong>Annual Plan</strong></h4>
+<p>$59.99/year</p>
+<a href="#">Change</a>
+    </div> 
+    <div class="btn"><p class="para">Procced to Payment</p></div>
+    <a href="#" id="last">Cancel Order</a>
+</div> 
+</body>
+</html>
